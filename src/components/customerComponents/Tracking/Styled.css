@@ -1,0 +1,56 @@
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  color: #0f0f48;
+  margin: 50px;
+}
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(235, 232, 235, 1);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(235, 232, 235, 1);
+  box-shadow: 0px 0px 10px 5px rgb(226, 226, 226);
+  min-height: 300px;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+}
+button.btn.btn-secondary {
+  background: transparent;
+  border: none;
+  margin-top: 20px;
+  background-color: #fdda01;
+  background-image: linear-gradient(#e1ab15, #fdda01);
+  padding: 15px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+span.or-txt {
+  width: 100%;
+  display: block;
+  padding: 30px 0;
+  font-size: 25px;
+}
+.img img {
+  margin-right: -42px;
+  height: 400px;
+  margin-bottom: -60px;
+  margin-top: 50px;
+}
+.all-txt {
+  width: 80%;
+}
+.call-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-us img {
+  max-width: 50px;
+}
+.call-us span {
+  font-size: 30px;
+}
